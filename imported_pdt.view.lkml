@@ -4,4 +4,5 @@ view: imported_pdt {
     sql_trigger_value: SELECT CURRENT_TIMESTAMP() ;;
     sql: SELECT * FROM demo_db.orders ;;
   }
+  dimension: status {}
 }

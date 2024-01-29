@@ -11,7 +11,3 @@ view: imported_pdt {
     sql: ${TABLE}.created_at ;;
   }
 }
-
-datagroup: test_datagroup {
-  sql_trigger: SELECT CURRENT_TIMESTAMP() ;;
-}

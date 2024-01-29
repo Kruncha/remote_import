@@ -6,5 +6,3 @@ view: imported_pdt {
   }
   dimension: status {}
 }
-
-explore: imported_pdt {}

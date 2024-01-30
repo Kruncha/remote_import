@@ -3,7 +3,7 @@ view: imported_pdt {
     indexes: ["status"]
     increment_key: "created_date"
     datagroup_trigger: test_datagroup
-    sql: SELECT * FROM demo_db.orders LIMIT 100000;;
+    sql: SELECT * FROM demo_db.orders LIMIT 100000 where {% incrementcondition %} created_at {% endincrementcondition %};;
   }
   dimension: status {}
   dimension_group: created {
